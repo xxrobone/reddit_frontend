@@ -16,7 +16,7 @@ const PostListItem = ({ post }: { post: Post }) => {
             <h2>{post.title}</h2>
           </Link>
         )}
-        <p>by {post.author.userName}</p>
+        <p>by {post.author.username}</p>
         { post.link && (
           <span><Link to={`/posts/${post._id}`}>Show post</Link></span>
         )}

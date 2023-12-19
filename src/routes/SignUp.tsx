@@ -16,7 +16,7 @@ export const action = async (args: ActionFunctionArgs) => {
         return { message: 'Passwords don\'t match' };
     }
 
-    const response = await fetch(import.meta.env.VITE_SERVER_URL + '/register', {
+    const response = await fetch(import.meta.env.VITE_SERVER_URL + '/signup', {
         headers: {
             'Content-Type': 'application/json',
         },

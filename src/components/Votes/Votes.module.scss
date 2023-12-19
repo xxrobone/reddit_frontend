@@ -1,0 +1,19 @@
+footer {
+    display: flex;
+    align-items: center;
+    font-size: 0.75rem;
+
+    :nth-child(1),
+    :nth-child(3) {
+      color: #3d3d3d;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    span {
+      color: #302f2f;
+      margin: 0 0.5rem;
+    }
+
+    }
