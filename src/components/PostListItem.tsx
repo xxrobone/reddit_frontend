@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Post } from '../types';
 import classes from './PostListItem.module.css';
-import { convertDate } from './convertDate/ConvertDate';
+import { convertDate } from './convertDate/convertDate';
 
 const PostListItem = ({ post }: { post: Post }) => {
   return (
